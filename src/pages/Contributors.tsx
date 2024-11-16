@@ -1,5 +1,7 @@
 import { Github, GitFork } from 'lucide-react';
 
+
+
 interface Contributor {
   name: string;
   avatar: string;
@@ -11,26 +13,27 @@ interface Contributor {
 const contributors: Contributor[] = [
   {
     name: "Mehul Pardeshi",
-    avatar: "src/assets/WhatsApp Image 2024-11-16 at 02.57.32.jpeg",
+    avatar: "/assets/mehul.jpeg", 
     github: "MehulPardeshi",
-    contributions: 127,
-    role: "AI Model Developer"
+    contributions: 12,
+    role: "AI Model Developer",
   },
   {
     name: "Siddhesh Rajale",
-    avatar: "src/assets/WhatsApp Image 2024-11-16 at 02.57.53.jpeg",
+    avatar: "/assets/sid.jpeg", 
     github: "Siddheshuncodes",
-    contributions: 89,
-    role: "Systems Design"
+    contributions: 8,
+    role: "Systems Design",
   },
   {
     name: "Divyesh Mali",
-    avatar: "src/assets/WhatsApp Image 2024-11-16 at 02.59.07.jpeg",
+    avatar: "/assets/dd.jpeg", 
     github: "divyesh-mali",
-    contributions: 76,
-    role: "Frontend Developer"
+    contributions: 6,
+    role: "Frontend Developer",
   },
 ];
+
 
 export function Contributors() {
   return (
@@ -98,4 +101,4 @@ export function Contributors() {
       </div>
     </main>
   );
-} 
+}
